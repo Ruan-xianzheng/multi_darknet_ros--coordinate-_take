@@ -1,0 +1,8 @@
+<launch>
+    <include file = "$(find darknet_ros)/launch/rxz_darknet_ros1.launch" />
+    <include file = "$(find darknet_ros)/launch/rxz_darknet_ros2.launch" />
+    <include file = "$(find darknet_ros)/launch/rxz_darknet_ros3.launch" />
+    <include file = "$(find darknet_ros)/launch/rxz_darknet_ros4.launch" />
+    <include file = "$(find darknet_ros)/launch/rxz_darknet_ros5.launch" />
+
+</launch>
