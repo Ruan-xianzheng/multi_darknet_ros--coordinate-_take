@@ -62,7 +62,8 @@ sudo apt install ros-melodic-global-planner
 #### (2)darknet_ros功能包中的CMakeLists.txt文件
 
 ```cpp
-find_package(OpenCV 版本号 REQUIRED) #OpenCV的版本修改，需要根据自己安装的版本修改
+(1)find_package(OpenCV 版本号 REQUIRED) #OpenCV的版本修改，需要根据自己安装的版本修改
+(2)修改CMakeList.txt文件：修改26行（可能不是这一行，直接在这个文件夹寻找86即可）： -gencode arch=compute_86,code=[sm_86,compute_86]
 ```
 
 ## Run SMMR-Explore （）Todo
